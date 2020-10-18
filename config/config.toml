@@ -1,0 +1,11 @@
+[gin]
+port=8080
+[database]
+type="mysql"
+address="127.0.0.1:3306"
+dbName="stu_manager"
+    [database.auth]
+    userName="root"
+    password="123456"
+[log]
+level="all"
